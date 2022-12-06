@@ -34,32 +34,19 @@
 		align-items: center;
 		max-width: 80rem;
 		margin: 0 auto;
+		padding: 1rem;
 	}
 	nav {
 		display: none;
+		clip-path: circle(20px at calc((100% - 25px) - 1rem) 35px);
+		transition: 0.5s clip-path ease-in-out;
 	}
 	nav a {
 		position: relative;
 		color: black;
 		display: none;
 	}
-	nav a::before {
-		content: '';
-		position: absolute;
-		bottom: -0.3rem;
-		right: 0;
-		width: 0;
-		height: 2px;
-		background-color: var(--color-dark);
-		transition: width 1s cubic-bezier(0.25, 1, 0.5, 1);
-		display: none;
-		z-index: 30;
-	}
-	nav a:hover::before {
-		left: 0;
-		right: auto;
-		width: 100%;
-	}
+
 	nav.active {
 		position: fixed;
 		display: flex;
@@ -75,6 +62,7 @@
 		background-color: var(--color-white);
 		overflow: hidden;
 		z-index: 20;
+		clip-path: circle(100%);
 	}
 
 	nav.active a {

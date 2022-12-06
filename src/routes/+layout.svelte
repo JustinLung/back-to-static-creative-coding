@@ -8,3 +8,11 @@
 <main>
 	<slot />
 </main>
+
+<style>
+	main {
+		max-width: 80rem;
+		margin: 0 auto;
+		padding: 1rem;
+	}
+</style>
