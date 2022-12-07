@@ -13,6 +13,8 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		background-color: var(--color-wine);
+		padding: 1rem 3rem;
 	}
 	h2 {
 		font-size: 3rem;
@@ -25,9 +27,9 @@
 		line-height: 1.5rem;
 	}
 
-	@media (max-widht: 55rem) {
+	@media (max-width: 55rem) {
 		section {
-			height: 15rem;
+			padding: 1rem;
 		}
 	}
 </style>
