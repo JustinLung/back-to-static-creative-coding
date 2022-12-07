@@ -48,6 +48,12 @@
 		z-index: 22;
 	}
 
+	span {
+		width: 90%;
+		height: 2px;
+		background-color: var(--color-dark);
+	}
+
 	nav {
 		clip-path: circle(30px at calc(100% - 15px - 1rem) calc(40px + 1rem));
 		transition: 0.5s clip-path ease-in-out;
@@ -55,12 +61,11 @@
 		height: 100vh;
 		position: absolute;
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		font-size: 1.3rem;
 		font-weight: bold;
-		gap: 0.8rem;
 		inset: 0;
 		background-color: var(--color-white);
 		overflow: hidden;
@@ -69,7 +74,6 @@
 	}
 
 	ul {
-		height: 100vh;
 		width: 100%;
 		max-width: 30rem;
 		margin: 0 auto;
@@ -80,9 +84,12 @@
 		color: var(--color-dark);
 		font-size: 3rem;
 		gap: 1rem;
+		margin-bottom: 1rem;
 	}
 
 	ul:last-child {
+		margin-top: 1rem;
+		gap: 0;
 		font-size: 2rem;
 	}
 
@@ -165,12 +172,6 @@
 		width: 1.2rem;
 	}
 
-	span {
-		height: 80%;
-		width: 2px;
-		background-color: var(--color-dark);
-	}
-
 	@media (min-width: 60rem) {
 		header {
 			padding: 1rem 3rem;
@@ -178,10 +179,27 @@
 
 		nav {
 			clip-path: circle(30px at calc(100% - 15px - 3rem) calc(40px + 1rem));
+			gap: 0.8rem;
+			flex-direction: row;
+		}
+		span {
+			height: 80%;
+			width: 2px;
+			background-color: var(--color-dark);
 		}
 		button {
 			display: block;
 		}
+
+		ul {
+			height: 100vh;
+		}
+
+		ul:last-child {
+			gap: 0.8rem;
+			font-size: 2rem;
+		}
+
 		nav a::before {
 			display: block;
 		}
