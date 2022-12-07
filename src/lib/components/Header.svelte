@@ -1,8 +1,15 @@
 <script lang="ts">
+	import gsap from 'gsap';
+	import { onMount } from 'svelte';
 	let isActive = false;
 
 	function toggleNavMenu() {
 		isActive = !isActive;
+		if (isActive) {
+			gsap.to('li', { duration: 0.5, opacity: 1, stagger: 0.15, y: 0, delay: 0.4 });
+		} else {
+			gsap.set('li', { opacity: 0, y: 20, delay: 0.5 });
+		}
 	}
 </script>
 
@@ -83,11 +90,14 @@
 
 	li {
 		text-decoration: none;
+		opacity: 0;
+		transform: translateY(20px);
 	}
 
 	nav a {
 		position: relative;
 		color: var(--color-dark);
+		text-decoration: none;
 	}
 
 	nav.active {
