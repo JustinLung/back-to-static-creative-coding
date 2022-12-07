@@ -11,8 +11,12 @@
 
 <style>
 	main {
-		max-width: 80rem;
-		margin: 0 auto;
-		padding: 1rem;
+		padding: 1rem 3rem;
+	}
+
+	@media (max-width: 55rem) {
+		main {
+			padding: 1rem;
+		}
 	}
 </style>
