@@ -1,6 +1,5 @@
 <script lang="ts">
 	import gsap from 'gsap';
-	import { onMount } from 'svelte';
 	let isActive = false;
 
 	function toggleNavMenu() {
@@ -63,7 +62,6 @@
 		font-weight: bold;
 		gap: 0.8rem;
 		inset: 0;
-
 		background-color: var(--color-white);
 		overflow: hidden;
 		z-index: 20;
