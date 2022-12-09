@@ -136,6 +136,16 @@
 		z-index: 30;
 	}
 
+	button::after {
+		content: "MENU";
+		color:var(--color-white); 
+		position: absolute;
+		top: 2.7rem;
+		left: 50%;
+		transform: translate(-50%);
+		mix-blend-mode: difference;
+	}
+
 	button span {
 		display: block;
 		width: 2rem;
