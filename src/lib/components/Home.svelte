@@ -9,7 +9,7 @@
 
 <style>
 	section {
-		height: 30rem;
+		height: 40rem;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
