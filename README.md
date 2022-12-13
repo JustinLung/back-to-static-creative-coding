@@ -14,6 +14,8 @@ In week 1, heb ik een fullscreen navigatie menu gebouwd, met met behulp van CSS 
 ## Week 2 - Bizarre punk revival cursor effect
 In week 2, hebben wij tijdens de les van Justus een generator gekregen en vervolgens hierbij een concept van een animatie of design uit te gaan werken. 
 
+### Vooronderzoek (Collage)
+
 ### Schets
 
 ### Eindproduct
