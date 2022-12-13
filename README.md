@@ -4,4 +4,9 @@ In deze deeltaak, worden een aantal creatieve oplossingen voor animaites getoond
 
 ## Week 1 - Open Menu Pane Power
 In Week 1 heb ik een fullscreen navigatie menu gebouwd, met met behulp van CSS en GSAP. GSAP is een Javascript Library, waarbij je met Javascript coole animaties kan maken. 
+
+### Schets
+![IMG_8155](https://user-images.githubusercontent.com/34651215/207313423-7e621aa2-36c6-4b7f-914f-635a444a039e.jpg)
+
+### Eindproduct
 ![week-1-fullscreen-menu](https://user-images.githubusercontent.com/34651215/207312581-b86350dd-9b2c-426a-9b50-8da0b9843bab.png)
