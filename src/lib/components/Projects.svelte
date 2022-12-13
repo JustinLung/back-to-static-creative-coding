@@ -1,12 +1,17 @@
 <script lang="ts">
-	import gsap from 'gsap';
+	import { gsap } from 'gsap/dist/gsap';
+	import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 	import { onMount } from 'svelte';
 
 	onMount(() => {
-		gsap.to(
-            "img", 
-            {opacity: 1, stagger: 0.15, y: 0, delay: 0.4}
-		);
+		gsap.registerPlugin(ScrollTrigger);
+
+		ScrollTrigger.batch('.project', {
+            interval: 0.1,
+            start: "top center",
+			onEnter: (batch) =>
+				gsap.to(batch, { autoAlpha: 1, stagger: 0.15, opacity: 1, y: 0})
+		});
 	});
 </script>
 
@@ -20,12 +25,12 @@
 		</p>
 	</div>
 	<div>
-		<img src="https://source.unsplash.com/random" alt="Project" />
-		<img src="https://source.unsplash.com/random" alt="Project" />
-		<img src="https://source.unsplash.com/random" alt="Project" />
-		<img src="https://source.unsplash.com/random" alt="Project" />
-		<img src="https://source.unsplash.com/random" alt="Project" />
-		<img src="https://source.unsplash.com/random" alt="Project" />
+		<img src="profile.JPG" alt="Project" class="project" />
+		<img src="profile.JPG" alt="Project" class="project" />
+		<img src="profile.JPG" alt="Project" class="project" />
+		<img src="profile.JPG" alt="Project" class="project" />
+		<img src="profile.JPG" alt="Project" class="project" />
+		<img src="profile.JPG" alt="Project" class="project" />
 	</div>
 </section>
 
@@ -61,16 +66,17 @@
 		grid-gap: 1rem;
 	}
 
-	img {
+	.project {
 		border-radius: 0.5rem;
 		max-width: 30rem;
 		width: 100%;
-        transform: translateY(20px);
-        opacity: 0;
+		transform: translateY(20px);
+		opacity: 0;
 	}
 
 	@media (max-width: 55rem) {
 		h2 {
+			font-size: 2.5rem;
 			margin: 0;
 		}
 		div:first-child {
