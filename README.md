@@ -16,9 +16,13 @@ In week 2, hebben wij tijdens de les van Justus een generator gekregen en vervol
 
 ### Vooronderzoek (Collage)
 Zelf vond ik een aantal een aantal images op het internet van de style bizarre punk. Nadat ik een paar ideeën tot mij heb gekregen, heb ik een aantal schetsen gemaakt met behulp van pen en papier.
+
 ![collage](https://user-images.githubusercontent.com/34651215/207566119-cd6e4dfa-31aa-41ca-b81f-1fcf086bd005.jpg)
 
 ### Schets
+![IMG_8178](https://user-images.githubusercontent.com/34651215/207568787-9b5f5455-5e47-40ff-b07d-15dedcd01f28.jpg)
 
 
 ### Eindproduct
+
+## Week 3 
