@@ -15,7 +15,10 @@ In week 1, heb ik een fullscreen navigatie menu gebouwd, met met behulp van CSS 
 In week 2, hebben wij tijdens de les van Justus een generator gekregen en vervolgens hierbij een concept van een animatie of design uit te gaan werken. 
 
 ### Vooronderzoek (Collage)
+Zelf vond ik een aantal een aantal images op het internet van de style bizarre punk. Nadat ik een paar ideeën tot mij heb gekregen, heb ik een aantal schetsen gemaakt met behulp van pen en papier.
+![collage](https://user-images.githubusercontent.com/34651215/207566119-cd6e4dfa-31aa-41ca-b81f-1fcf086bd005.jpg)
 
 ### Schets
+
 
 ### Eindproduct
