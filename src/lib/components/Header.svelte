@@ -40,7 +40,9 @@
 		justify-content: space-between;
 		align-items: center;
 		padding: 1rem;
-		position: relative;
+		position: fixed;
+		width: 100%;
+		z-index: 99;
 	}
 	h1 {
 		color: var(--color-white);

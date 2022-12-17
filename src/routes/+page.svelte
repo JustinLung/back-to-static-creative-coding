@@ -4,6 +4,6 @@
 	// import Projects from "$lib/components/Projects.svelte";
 </script>
 
-<Home/>
+<!-- <Home/> -->
 <!-- <Projects/> -->
 <Links/>
