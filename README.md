@@ -22,7 +22,7 @@ Zelf vond ik een aantal een aantal images op het internet van de style bizarre p
 ### Schets
 ![IMG_8178](https://user-images.githubusercontent.com/34651215/207568787-9b5f5455-5e47-40ff-b07d-15dedcd01f28.jpg)
 
-
 ### Eindproduct
+![Screenshot 2022-12-17 at 16 25 23](https://user-images.githubusercontent.com/34651215/208249154-3c2b180d-ed65-4043-86ae-cde88bafc2c2.png)
 
 ## Week 3 
