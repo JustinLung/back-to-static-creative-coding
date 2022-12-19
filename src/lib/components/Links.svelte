@@ -16,7 +16,7 @@
 <section>
 	<nav class="navigation">
 		<a href="/"><span>Home</span></a>
-		<a href="/"><span>Our Story</span></a>
+		<a href="/about"><span>Our Story</span></a>
 		<a href="/"><span>Studio</span></a>
 		<a href="/"><span>Contact</span></a>
 		<div class="cursor">
