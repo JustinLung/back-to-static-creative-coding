@@ -25,4 +25,9 @@ Zelf vond ik een aantal een aantal images op het internet van de style bizarre p
 ### Eindproduct
 ![Screenshot 2022-12-17 at 16 25 23](https://user-images.githubusercontent.com/34651215/208249154-3c2b180d-ed65-4043-86ae-cde88bafc2c2.png)
 
-## Week 3 
+## Week 3 - Sublime Page Transitions
+In week 3, hebben wij samen met Berat een roullette gebruikt waarbij er een aantal animatie concepten erin staan. Hierbij kwam eruit dat ik een page transition moet gaan ontwikkelen. Dit vind ik persoonlijk nog al moeilijk te maken, maar dit wordt een leuke uitdaging.
+
+### Schets
+
+### Eindproduct
