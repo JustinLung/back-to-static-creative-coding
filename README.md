@@ -29,5 +29,7 @@ Zelf vond ik een aantal een aantal images op het internet van de style bizarre p
 In week 3, hebben wij samen met Berat een roullette gebruikt waarbij er een aantal animatie concepten erin staan. Hierbij kwam eruit dat ik een page transition moet gaan ontwikkelen. Dit vind ik persoonlijk nog al moeilijk te maken, maar dit wordt een leuke uitdaging.
 
 ### Schets
+![week-3-schetsen](https://user-images.githubusercontent.com/34651215/208987228-fd6a6453-e73b-46ae-ae4e-4d7d261b9e97.jpg)
 
 ### Eindproduct
+![morph](https://user-images.githubusercontent.com/34651215/208987326-f6f7aea4-2291-4093-94d5-49099784b1e1.png)
