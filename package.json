@@ -30,6 +30,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/adapter-vercel": "^1.0.0",
 		"gsap": "^3.11.3"
 	}
 }
