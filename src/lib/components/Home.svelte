@@ -1,3 +1,7 @@
+<script>
+	
+</script>
+
 <section id="home">
 	<h2>Hi, Welcome to this site!</h2>
 	<p>
