@@ -1,6 +1,6 @@
 import vercel from '@sveltejs/adapter-vercel';
 
-export default {
+const config = {
   kit: {
     // default options are shown
     adapter: vercel({
@@ -19,3 +19,5 @@ export default {
     })
   }
 };
+
+export default config;
